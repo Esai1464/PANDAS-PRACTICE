@@ -48,3 +48,20 @@ Also filled a few NaN values in the Product column with `Others`.
 Real datasets are never clean. Even a simple column like State 
 can have wrong data sitting in it. Cleaning takes more time 
 than actual analysis — but it is the most important step.
+
+
+
+## Final Dataset Cleaning Summary
+
+Additional cleaning tasks performed:
+
+- Cleaned invalid values in the Sales Channel column
+- Replaced invalid UUID entries with valid sales channel categories
+- Handled missing values in the Order ID column
+- Checked duplicate Order IDs
+- Removed unnecessary columns
+- Verified data consistency and data types
+
+### Final Files
+- Final.ipynb
+- Final_nigeria_cleaned_dataset.csv
